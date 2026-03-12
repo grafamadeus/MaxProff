@@ -1,0 +1,27 @@
+body {
+  background: #fff;
+}
+body * {
+  font-family: var(--primary-font);
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 64px;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.grid__gap-20 {
+  gap: 20px;
+}
+.title {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  color: var(--dark-color);
+}
