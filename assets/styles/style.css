@@ -25,3 +25,53 @@ body * {
   text-align: center;
   color: var(--dark-color);
 }
+/*  */
+.your_warehouse{
+  padding: 54px 0 59px;
+  background: #f8f8f8;
+}
+.warehouse__title{
+  width: 892px;
+  margin: 0 auto;
+}
+.warehouse__row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 25px 0 34px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 0 rgba(192, 192, 192, 0.25);
+  background: #fff;
+}
+.warehouse__card{
+  margin: 50px 12px 23px;
+}
+.warehouse__card > img{
+  height: 46px;
+  width: 46px;
+}
+
+.warehouse__card__desc {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: #171616;
+  width: 240px;
+  height: 63px;
+}
+.warehouse__img {
+  display: flex;
+  column-gap: 9px;
+}
+
+.warehouse__img > div {
+  flex: 1;
+}
+
+.warehouse__img > div img {
+  display: block;
+  width: 100%;
+  height: 392px;
+  object-fit: cover;
+  object-position: center;
+}
+/*  */
