@@ -102,5 +102,114 @@
 
   </header>
     
+    <section class="hero" id="hero">
+      <div class="container hero_box flex">
+        <div class="hero_content">
+          <h1 class="hero_title">РЕМОНТ КВАРТИР В МОСКВЕ И МО</h1>
+          <h2>от <span>2450</span> руб/м2</h2>
+          <div class="hero_grid grid">
+            <p>
+              <img src="./assets/images/cooperation.svg" alt="">
+              <br>Оплата по факту приема работ</p>
+            <p>
+              <img src="./assets/images/consent.svg" alt="">
+              <br>Замер и составление сметы БЕСПЛАТНО</p>
+            <p>
+              <img src="./assets/images/builder.svg" alt="">
+              <br>Выезд сметчика </p>
+            <p>
+              <img src="./assets/images/guarantee.svg" alt="">
+              <br>Гарантия 3 года</p>
+          </div>
+        </div>
+        <form action="" class="form">
+          <div class="calc">
+            <h4>РАССЧИТАЙТЕ стоимость ремонта</h4>
+            <p class="value">Вид ремонта:</p>
+            <div class="radio_group grid">
+              <label class="flex" for="cosmetic">
+                <input type="radio" id="cosmetic" name="renovation">
+                <span class="radio-custom"></span>
+                Косметический
+              </label>
+              <label class="flex" for="capital">
+                <input type="radio" id="capital" name="renovation">
+                <span class="radio-custom"></span>
+                Капитальный
+              </label>
+              <label class="flex" for="key">
+                <input type="radio" id="key" name="renovation">
+                <span class="radio-custom"></span>
+                Под ключ
+              </label>
+              <label class="flex" for="design">
+                <input type="radio" id="design" name="renovation">
+                <span class="radio-custom"></span>
+                Дизайнерский
+              </label>
+            </div>
+            <hr>
+            <p class="value">Тип вашей недвижимости:</p>
+            <div class="radio_group grid">
+              <label class="flex" for="newly">
+                <input type="radio" id="newly" name="type">
+                <span class="radio-custom"></span>
+                Новостройка
+              </label>
+              <label class="flex" for="secondary">
+                <input type="radio" id="secondary" name="type">
+                <span class="radio-custom"></span>
+                Вторичное жилье
+              </label>
+            </div>
+            <hr>
+            <p class="value">Количество комнат</p>
+            <div class="radio_group grid room">
+              <label class="flex" for="one">
+                <input type="radio" id="one" name="room">
+                <span class="radio-custom"></span>
+                1
+              </label>
+              <label class="flex" for="two">
+                <input type="radio" id="two" name="room">
+                <span class="radio-custom"></span>
+                2
+              </label>
+              <label class="flex" for="three">
+                <input type="radio" id="three" name="room">
+                <span class="radio-custom"></span>
+                3
+              </label>
+              <label class="flex" for="four">
+                <input type="radio" id="four" name="room">
+                <span class="radio-custom"></span>
+                4
+              </label>
+            </div>
+            <hr>
+            <div class="slider-wrapper">
+              <p class="value">Площадь, м2:</p>
+              <div class="slider-row">
+                <input type="range" min="0" max="100" value="35" class="slider" />
+                <span class="value sl">35</span>
+              </div>
+            </div>
+          </div>
+          <div class="form_discount grid">
+            <p>Срок ремонта: <br><span class="discount_p">до 34 дней</span></p>
+            <p>Скидка составит: <br><span class="discount_p dis_price">23 765 руб</span></p>
+          </div>
+          <div class="form_num">
+            <p class="value">Введите номер телефона</p>
+            <div class="wrapper flex">
+              <input type="tel" value="+7">
+              <button class="hero_btn">заказать</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
