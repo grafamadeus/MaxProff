@@ -1,6 +1,7 @@
 body {
   background: #fff;
 }
+
 body * {
   font-family: var(--primary-font);
 }
@@ -10,18 +11,88 @@ body * {
   margin: 0 auto;
   padding: 0 64px;
 }
+
 .flex {
   display: flex;
 }
+
 .grid {
   display: grid;
 }
+
 .grid__gap-20 {
   gap: 20px;
 }
+
 .title {
   font-weight: 700;
   font-size: 42px;
   text-align: center;
   color: var(--dark-color);
 }
+
+/* ADVANTAGES */
+.advantages__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  color: #171616;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeDown 0.8s ease forwards;
+
+}
+
+@keyframes fadeDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.advantages__content {
+  padding-top: 57px;
+  padding-bottom: 29px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  gap: 20px;
+}
+
+.advantages__content_item {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeDown 0.8s ease forwards;
+}
+
+@keyframes fadeDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.content__item_title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: #171616;
+  margin-bottom: 33px;
+
+}
+
+.margin {
+  margin-bottom: 12px;
+}
+
+.content__item_title_desc {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #171616;
+  width: 285px;
+}
+
+/* ADVANTAGES */
