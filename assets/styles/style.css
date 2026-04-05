@@ -25,3 +25,49 @@ body * {
   text-align: center;
   color: var(--dark-color);
 }
+
+/* REWIEWS */
+.reviews{
+  padding-top: 29px;
+  padding-bottom: 72px;
+}
+.reviews__title{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 42px;
+text-align: center;
+color: #171616;
+margin-bottom: 29px;
+}
+.reviews__cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(586px, 1fr));
+  gap: 30px;
+  background:#fff;
+}
+.reviews__card{
+  display: block;
+}
+.reviews__vid > video{
+  width: 586px;
+  height: 298px;
+  object-fit: cover;
+  object-position: center;
+}
+.reviews__vid_info{
+  padding: 15px 0 15px 25px;
+}
+.vid__info_title{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+color: #6cac3d;
+}
+.vid__info{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color: #171616;
+}
+/* REWIEWS */
