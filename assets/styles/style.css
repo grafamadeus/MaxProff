@@ -572,4 +572,108 @@ body * {
 
 
 /* examples */
+/* promo */
+.promo {
+  padding-top: 126px;
+}
+.promo__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-top: 45px;
+  margin-bottom: 25px;
+}
+.promo__card1 {
+  background: url("../images/promo-new-residents.png") center / cover no-repeat;
+  width: 387px;
+  height: 490px;
+  padding-top: 241px;
+  padding-bottom: 40px;
+}
+.promo__card2 {
+  background: url("../images/-promo-newlyweds.png") center / cover no-repeat;
+  width: 387px;
+  height: 490px;
+  padding-top: 241px;
+  padding-bottom: 40px;
+}
+.promo__card3 {
+  background: url("../images/promo-pensioners.png") center / cover no-repeat;
+  width: 387px;
+  height: 490px;
+  padding-top: 241px;
+  padding-bottom: 40px;
+}
+
+.promo__card_content {
+  width: 387px;
+  height: 209px;
+  background: linear-gradient(360deg, #fff 17.74%, rgba(255, 255, 255, 0) 100%);
+  padding: 80px 57px 48px 58px;
+  position: absolute;
+}
+.card__content__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+  color: #171616;
+  text-align: center;
+}
+.card__content_desc {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #171616;
+  text-align: center;
+}
+.promo__card_btn {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 4px;
+  background: #6cac3d;
+  padding: 13px 29px;
+  position: relative;
+  left: 90px;
+  top: 180px;
+}
+.promo__card_btn:hover {
+  background: #52971f;
+}
+.promo__card_btn:active {
+  transform: translateY(2px);
+  transform: scale(0.97);
+  background: #6cac3d;
+}
+.allpromo {
+  border: 2px solid #6cac3d;
+  border-radius: 4px;
+  width: 205px;
+  height: 48px;
+  box-shadow: 0 4px 4px 0 rgba(148, 148, 148, 0.25);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: #6cac3d;
+  margin-bottom: 57px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 57px;
+  transition: 0.3s;
+}
+.allpromo:hover {
+  background: #52971f;
+  color: white;
+}
+.allpromo:active {
+  transform: translateY(2px);
+  transform: scale(0.97);
+  background: #6cac3d;
+  color: white;
+}
+
+/* promo */
+
 
